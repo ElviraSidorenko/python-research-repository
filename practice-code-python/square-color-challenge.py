@@ -1,5 +1,5 @@
 
-# get a color of the tile
+# get a color of the tile based on the inputs
 def get_color(column, row):
     if column.lower() in ('a', 'c', 'e', 'g'):
         if (row % 2) == 0:
