@@ -1,3 +1,5 @@
+# Get a number
+
 n = int(input('Type a number: '))
 list = ''
 
@@ -11,4 +13,6 @@ while i <= n:
     list = list + f'[{i}]'
     i += 1
 
+
+# Display a result
 print(list)
