@@ -19,3 +19,7 @@ def simple_loop(data):
         # Simple loop logic with clear iteration
         result += value
     return result
+
+
+# Resources:
+# https://www.freecodecamp.org/news/keep-it-simple-stupid-how-to-use-the-kiss-principle-in-design/
