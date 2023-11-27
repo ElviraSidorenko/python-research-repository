@@ -186,3 +186,10 @@ class Switch:
 # In this improved example, Switch depends on the abstraction (Switchable).
 # LightBulb and Fan both implement the Switchable interface.
 # If we introduce a new device, we only need to create a new class implementing Switchable.
+
+
+# Resources:
+# https://medium.com/@peterlee2068/software-design-principles-every-programmer-should-know-c164a83c6f87
+# https://www.oodesign.com/design-principles
+# https://swimm.io/learn/system-design/6-software-design-principles-used-by-successful-engineers
+# https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
