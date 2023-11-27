@@ -82,3 +82,6 @@ class AreaCalculator:
 
 # Now, if you want to add a new shape, you can create a new class that inherits from the Shape abstract class and implement the area method without modifying the AreaCalculator class.
 # This adheres to the Open/Closed Principle.
+
+# Resources:
+# https://blog.damavis.com/en/solid-principles-illustrated-in-simple-python-examples/
