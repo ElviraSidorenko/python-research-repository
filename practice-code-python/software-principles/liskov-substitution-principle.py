@@ -34,3 +34,6 @@ make_bird_fly(penguin)  # Output: Penguin can't fly
 # The key here is that both Sparrow and Penguin are subclasses of Bird, and they can be used interchangeably in the make_bird_fly function without affecting the correctness of the program.
 # This adheres to the Liskov Substitution Principle.
 # If the LSP is violated, replacing an object of the base class with an object of the subclass could lead to unexpected behavior or errors in the program.
+
+# Resouces:
+# https://blog.damavis.com/en/solid-principles-illustrated-in-simple-python-examples/
