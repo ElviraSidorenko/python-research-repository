@@ -10,9 +10,8 @@ def complicated_loop(data):
         result += data[i] * (i + 1)
     return result
 
+
 # Good Example
-
-
 def simple_loop(data):
     result = 0
     for value in data:
