@@ -30,3 +30,10 @@ def cleanWord(word):
 
 # Out: ['my', 'name', 'is', 'elvira', 'i', 'live', 'in', 'auckland']
 print([cleanWord(word) for word in myString.split()])
+
+
+# List comprehensions align with several design principles that are fundamental to Python's philosophy:\
+
+# DRY - List comprehensions help in avoiding repetitive code.
+# KISS - List comprehensions are generally simple and straightforward.
+# SRP - List comprehensions often encapsulate a single operation or transformation on elements, adhering to the SRP. This can lead to more modular and maintainable code.

@@ -193,3 +193,4 @@ class Switch:
 # https://www.oodesign.com/design-principles
 # https://swimm.io/learn/system-design/6-software-design-principles-used-by-successful-engineers
 # https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
+# https://www.letsmakebettersoftware.com/2017/08/solid-1-single-responsibility-principle.html

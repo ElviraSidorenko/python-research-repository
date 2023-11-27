@@ -28,3 +28,4 @@ def perform_operation(a, b, operation):
 # Resources:
 # https://medium.com/@peterlee2068/software-design-principles-every-programmer-should-know-c164a83c6f87
 # The Pragmatic Programmer, Andrew Hunt, David Thomas
+# https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f

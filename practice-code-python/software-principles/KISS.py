@@ -22,3 +22,4 @@ def simple_loop(data):
 
 # Resources:
 # https://www.freecodecamp.org/news/keep-it-simple-stupid-how-to-use-the-kiss-principle-in-design/
+# https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f

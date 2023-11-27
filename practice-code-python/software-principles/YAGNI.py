@@ -32,3 +32,7 @@ cart = ShoppingCart()
 cart.add_item('Product A')
 cart.add_item('Product B')
 print(cart.items)  # ['Product A', 'Product B']
+
+# Resources:
+# https://deviq.com/principles/yagni
+# https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f
