@@ -1,4 +1,4 @@
-# KISS: Keep it simple, stupid
+# KISS: Keep It Simple, Stupid
 # Principle: Keep the design and implementation as simple as possible.
 
 # Bad Example
