@@ -1,5 +1,6 @@
 # KISS: Keep It Simple, Stupid
 # Principle: Keep the design and implementation as simple as possible.
+# In eXtreme Programming (XP), this principle is indicated by a practice named "Do the simplest thing that could possibly work" (DTSTTCPW).
 
 # Bad Example
 def complicated_loop(data):
