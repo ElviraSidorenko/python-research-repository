@@ -1,6 +1,7 @@
 
 # DRY: Don't Repeat Yourself
 # Principle: Avoid duplicating code. Encourage code reuse to reduce redundancy.
+# The principle was formulated by Andy Hunt and Dave Thomas in The Pragmatic Programmer (1999).
 
 # Bad Example
 def add_numbers(a, b):
