@@ -23,3 +23,8 @@ def perform_operation(a, b, operation):
         print(a + b)
     elif operation == 'subtract':
         print(a - b)
+
+
+# Resources:
+# https://medium.com/@peterlee2068/software-design-principles-every-programmer-should-know-c164a83c6f87
+# The Pragmatic Programmer, Andrew Hunt, David Thomas
