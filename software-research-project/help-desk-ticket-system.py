@@ -3,6 +3,8 @@ class Ticket:
     tickets = []
 
     def __init__(self, staff_id, creator_name, contact_email, description):
+        # Encapsulation: The constructor encapsulates the ticket details and initializes instance variables.
+        # Counter and tickets are class variables to maintain a count of tickets and store all tickets.
         self.ticket_number = Ticket.counter
         Ticket.counter += 1
         self.staff_id = staff_id
@@ -15,6 +17,7 @@ class Ticket:
 
     @staticmethod
     def validate_input(prompt, error_message):
+        # Single Responsibility: This method handles input validation, following the Single Responsibility Principle.
         user_input = input(prompt)
         while not user_input:
             print(error_message)
@@ -23,6 +26,7 @@ class Ticket:
 
     @classmethod
     def create_ticket(cls, staff_id, creator_name, contact_email, description):
+        # Factory Method: This method is a factory method creating a Ticket object.
         password_change_options = ['password change', 'pasword change', 'passwordchange', 'paswordchange',
                                    'change password', 'changepassword', 'change pasword', 'changepasword']
         ticket = cls(staff_id, creator_name, contact_email, description)
@@ -58,6 +62,7 @@ class Ticket:
                     '\nInvalid input. Please enter a valid response. Y/N ')
 
     def generate_password(self):
+        # Single Responsibility: This method generates a password based on staff_id and creator_name.
         self.response = f"\nNew password generated: {
             self.staff_id[:2] + self.creator_name[:3]}"
         self.status = 'Closed'
@@ -66,6 +71,7 @@ class Ticket:
 
     @classmethod
     def reopen_ticket(cls, ticket_number):
+        # State Management: This method reopens a closed ticket, changing its status.
         for ticket in cls.tickets:
             if str(ticket.ticket_number) == ticket_number:
                 if ticket.status == 'Closed':
@@ -79,7 +85,7 @@ class Ticket:
 
     @classmethod
     def provide_response(cls, ticket_number):
-
+        # State Management: This method allows providing a response to an open or reopened ticket.
         for ticket in cls.tickets:
             if str(ticket.ticket_number) == ticket_number:
                 if ticket.status == 'Open' or ticket.status == 'Reopened':
@@ -96,6 +102,7 @@ class Ticket:
 
     @classmethod
     def get_ticket_stats(cls):
+        # Information Hiding: This method provides statistics without exposing the internal details of ticket implementation.
         total_tickets = len(cls.tickets)
         resolved_tickets = sum(
             1 for ticket in cls.tickets if ticket.status == "Closed")
@@ -106,6 +113,7 @@ class Ticket:
 
     @classmethod
     def display_tickets(cls):
+        # Information Hiding: This method displays ticket details without exposing the internal details of ticket implementation.
         if len(cls.tickets) > 0:
             for ticket in cls.tickets:
                 print(f"\nTicket Number: {ticket.ticket_number}")
@@ -122,7 +130,7 @@ class Ticket:
 class Main:
 
     def action_selection(selection):
-
+        # Command Design Pattern: This method acts as a command, interpreting user input and invoking appropriate methods.
         if selection == '1':
             Ticket.submit_ticket()
         elif selection == '2':
