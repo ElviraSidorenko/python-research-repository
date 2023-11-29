@@ -7,6 +7,7 @@ This folder contains a fully functional Help Desk ticketing system written in Py
 
 - help-desk-ticket-system.py: the main file with the Python code.
 - README.md: Instructions and documentation for the Help Desk system.
+
 For more detailed information on how to use and contribute to the Help Desk ticketing system, please refer to the README.md file inside the folder.
 
 ## Practice Code in Python
