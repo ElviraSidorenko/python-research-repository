@@ -1,3 +1,5 @@
+# Challenge: Write a Python program that determines and classifies the type of a triangle based on the lengths of its three sides.
+
 # equilateral = 3 equal sides
 # isosceles = only 2 equal sides
 # scalene = no equal sides
