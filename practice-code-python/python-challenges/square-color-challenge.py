@@ -1,3 +1,5 @@
+# Challenge: Write a Python program that determines the color of a tile on a chessboard based on its column and row coordinates.
+# The chessboard is assumed to be an 8x8 grid, and the user is prompted to input a letter (representing the column, from 'a' to 'h') and a number (representing the row, from 1 to 8).
 
 # get a color of the tile based on the inputs
 def get_color(column, row):
