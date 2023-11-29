@@ -1,18 +1,19 @@
-# Get a number
+# Challenge: write a Python program that takes a number as input from the user and then prints a sequence of numbers enclosed in square brackets up to the given input number.
 
+# Prompt the user to enter a number, convert the input to an integer, and assign it to the variable n.
 n = int(input('Type a number: '))
-list = ''
+result_str = ''
 
-# Prints 1 through to n in square brackets like [1][2][3]...[n]
-
+# Ensure a valid number is provided
 while n <= 0:
     n = int(input('Not a valid number. Try again.'))
 
+# Concatenate square bracketed numbers to the result string
 i = 1
 while i <= n:
-    list = list + f'[{i}]'
+    result_str = result_str + f'[{i}]'
     i += 1
 
 
-# Display a result
-print(list)
+# Display the result
+print(result_str)
