@@ -1,4 +1,4 @@
-# Returns a list of all primes up to a given number
+# Challenge: Write a Python program that returns a list of all primes up to a given number
 
 def allPrimesUpTo(num):
     primes = [2]
