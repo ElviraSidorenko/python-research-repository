@@ -5,8 +5,8 @@ Welcome to the Research Repository! This repository is a collection of code and 
 ### Help Desk Ticketing System
 This folder contains a fully functional Help Desk ticketing system written in Python. The system is designed to streamline and organize support requests efficiently. Below is a brief overview of the project structure:
 
-help-desk-ticket-system.py: the main file with the Python code.
-README.md: Instructions and documentation for the Help Desk system.
+- help-desk-ticket-system.py: the main file with the Python code.
+- README.md: Instructions and documentation for the Help Desk system.
 For more detailed information on how to use and contribute to the Help Desk ticketing system, please refer to the README.md file inside the folder.
 
 ## Practice Code in Python
