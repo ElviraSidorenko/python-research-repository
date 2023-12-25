@@ -63,8 +63,7 @@ class Ticket:
 
     def generate_password(self):
         # Single Responsibility: This method generates a password based on staff_id and creator_name.
-        self.response = f"\nNew password generated: {
-            self.staff_id[:2] + self.creator_name[:3]}"
+        self.response = f"\nNew password generated: {self.staff_id[:2] + self.creator_name[:3]}"
         self.status = 'Closed'
         print(self.response)
         print(f"Ticket {self.ticket_number} is now Closed.")
